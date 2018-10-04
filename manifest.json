@@ -1,0 +1,11 @@
+{
+    "name": "Chrome Extension Reader",
+    "version": "1.0",
+    "description": "Chrome Extension With Ability To Read Web Page",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
