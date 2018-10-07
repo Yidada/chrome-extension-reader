@@ -2,7 +2,7 @@
     "name": "Chrome Extension Reader",
     "version": "1.0",
     "description": "Chrome Extension With Ability To Read Web Page",
-    "permissions": ["storage"],
+    "permissions": ["storage", "declarativeContent"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
